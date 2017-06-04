@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>音乐播放器</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	</head>
+
+	<body>
+		<div class="page">
+			<div class="head">
+				<div>
+					音乐盒
+				</div>
+			</div>
+			<div class="musicbox">
+
+			</div>
+			<div class="footer">
+				<!--进度条-->
+				<input class="range" type="range" id="range" max="100" value="1"  />
+				<!--左边歌曲图片-->
+				<div class="pic">
+					<img src="img/deng.jpg"/>
+				</div>
+				<!--上一首，暂停，下一首-->
+				<div class="prev">
+					<img  src="img/pre.png"/>
+				</div>
+				<div class="pause">
+					<img  src="img/stop.png"/>
+				</div>
+				<div class="next">
+					<img  src="img/next.png"/>
+				</div>
+				
+				<!--收藏-->
+				<div class="love">
+					收藏
+				</div>
+			</div>
+		</div>		
+		<audio id="audio" autoplay="true"></audio>	
+		<!--<audio id="audio" controls loop</audio>-->	
+		
+</audio>
+	</body>
+	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
